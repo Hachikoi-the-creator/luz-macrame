@@ -1,12 +1,24 @@
-// BURGER ANIMATION
-.menu-btn {
+//--- MAIN ---//
+.header {
+  width: 100vw;
+  height: 100vh;
   position: relative;
+  top: 0;
+  left: 0;
+}
+
+//--- BURGER ---//
+.menu-btn {
+  position: fixed;
+  top: 13px;
+  left: 13px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 80px;
   height: 80px;
   cursor: pointer;
+  z-index: 10;
   transition: all 0.5s ease-in-out;
 }
 
@@ -34,7 +46,7 @@
   transform: translateY(16px);
 }
 
-/* ANIMATION */
+// ANIMATION
 .menu-btn.open .menu-btn__burger {
   transform: translateX(-50px);
   background: transparent;
@@ -48,4 +60,31 @@
   transform: rotate(-45deg) translate(35px, 35px);
 }
 
-// NAVBAR
+//--- NAVBAR ---//
+.hidde-left {
+  transform: translateX(-120%);
+  right: 100%;
+}
+
+.navbar {
+  position: fixed;
+  width: 90%;
+  height: 95%;
+  top: 0;
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(255, 192, 203, 0.842);
+  transition: all 0.5s ease-in-out;
+
+  > * {
+    padding: 10px;
+    list-style: none;
+  }
+}
+
+.test {
+  height: 200vh;
+}
