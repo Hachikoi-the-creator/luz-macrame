@@ -5,7 +5,10 @@ export default function Header() {
   const [burger, setBurger] = React.useState(false);
 
   return (
-    <div className="header">
+    <div>
+      <div className="test" id="top">
+        7️⃣
+      </div>
       {/* BURGER */}
       <div
         id="test"
@@ -18,22 +21,31 @@ export default function Header() {
       {/* NAVBAR */}
       <ul className={`navbar ${burger ? "" : "hidde-left"}`}>
         <li className="logo">
-          <a href="#">LOGO</a>
+          <a onClick={() => setBurger(false)} href="#top">
+            LOGO
+          </a>
         </li>
         <li>
-          <a href="#">soma</a>
+          <a onClick={() => setBurger(false)} href="#">
+            Almoadas
+          </a>
         </li>
         <li>
-          <a href="#">soma</a>
+          <a onClick={() => setBurger(false)} href="#">
+            Macrame
+          </a>
         </li>
         <li>
-          <a href="#">soma</a>
+          <a onClick={() => setBurger(false)} href="#">
+            Uniformes
+          </a>
         </li>
         <li>
-          <a href="#">soma</a>
+          <a onClick={() => setBurger(false)} href="#">
+            Camino de mesa
+          </a>
         </li>
       </ul>
-      <div className="test">7️⃣</div>
     </div>
   );
 }
