@@ -1,0 +1,13 @@
+.hero {
+  background: center / contain no-repeat
+      radial-gradient(rgba(228, 228, 228, 0.671), rgba(255, 255, 255, 0.383)),
+    #eee center / 100% no-repeat url("../img/bg-crop.jpg");
+  padding-top: 10ch;
+  text-align: center;
+
+  > * {
+    padding: 3ch;
+  }
+}
+
+// TODO: Change the bg % in bigger screens

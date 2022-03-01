@@ -6,9 +6,6 @@ export default function Header() {
 
   return (
     <div>
-      <div className="test" id="top">
-        7️⃣
-      </div>
       {/* BURGER */}
       <div
         id="test"
