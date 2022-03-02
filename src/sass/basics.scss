@@ -1,8 +1,14 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
 :root {
   font-size: 62.5%;
+  font-family: "Hubballi";
 }
 
 body {
   overflow-x: hidden;
-  background: rgba(183, 217, 255, 0.801);
+  background: rgba(232, 234, 255, 0.8);
 }

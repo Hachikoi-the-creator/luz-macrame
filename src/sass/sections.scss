@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -18,46 +20,14 @@ section {
     height: 100%;
   }
 }
-// THIS MAY BREAK EVERYTHING
-// section {
-//   position: relative;
-//   // display: flex;
-//   // flex-direction: column;
-//   align-items: center;
-//   min-height: 400px;
-//   padding-top: 100px;
-//   background: #3c31dd;
-// }
-
-// .curve {
-//   position: absolute;
-//   height: 250px;
-//   width: 100%;
-//   bottom: 0;
-//   text-align: center;
-// }
-
-// .curve::before {
-//   content: "";
-//   display: block;
-//   position: absolute;
-//   border-radius: 100% 50%;
-//   width: 55%;
-//   height: 100%;
-//   transform: translate(85%, 60%);
-//   background-color: hsl(216, 21%, 16%);
-// }
-
-// .curve::after {
-//   content: "";
-//   display: block;
-//   position: absolute;
-//   border-radius: 100% 50%;
-//   width: 55%;
-//   height: 100%;
-//   background-color: #3c31dd;
-//   transform: translate(-4%, 40%);
-//   z-index: -1;
-// }
 
 // TODO: Change the layout of the grid to fit bigger screens 3 | 4 @media
+@media all and (min-width: 700px) {
+  section {
+    grid-template-columns: repeat(4, 1fr);
+
+    h2 {
+      grid-column: span 4;
+    }
+  }
+}
