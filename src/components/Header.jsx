@@ -1,5 +1,6 @@
 import React from "react";
 import "../sass/header.scss";
+import myLogo from "../img/logo.png";
 
 export default function Header() {
   const [burger, setBurger] = React.useState(false);
@@ -19,7 +20,11 @@ export default function Header() {
       <ul className={`navbar ${burger ? "" : "hidde-left"}`}>
         <li className="logo">
           <a onClick={() => setBurger(false)} href="#top">
-            LOGO
+            <img
+              src={myLogo}
+              alt="cute sewing logo whit a heart"
+              className="page-logo"
+            />
           </a>
         </li>
         <li>

@@ -6,6 +6,7 @@ import Almoadas from "./components/Almoadas";
 import Macrame from "./components/Macrame";
 import Uniformes from "./components/Uniformes";
 import CubreMesa from "./components/CubreMesa";
+import Form from "./components/Form";
 
 export default function App() {
   return (
@@ -15,7 +16,8 @@ export default function App() {
       <Almoadas />
       <Macrame />
       <Uniformes />
-      <CubreMesa />
+      {/* <CubreMesa /> */}
+      <Form />
     </div>
   );
 }

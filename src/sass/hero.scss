@@ -19,10 +19,12 @@
   }
 
   h1 {
-    color: rgba(79, 2, 110, 0.664);
-    font-size: 6rem;
-    font-family: "Fredoka";
-    font-weight: 700;
+    margin: 0;
+    padding: 0;
+
+    img {
+      width: 900px;
+    }
   }
 
   h2 {

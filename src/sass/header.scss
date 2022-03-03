@@ -62,13 +62,16 @@
 }
 
 //--- NAVBAR ---//
+.page-logo {
+  width: 150px;
+}
+
 .hidde-left {
   transform: translateX(-120%);
   right: 100%;
 }
 
 .navbar {
-  font-size: 1.6rem;
   position: fixed;
   width: 81%;
   height: 95%;
@@ -87,12 +90,13 @@
   }
 
   a {
-    color: rgba(0, 0, 0, 0.849);
+    color: rgba(8, 0, 85, 0.849);
     text-decoration: none;
-    font-size: 1.6rem;
+    font-size: 2.6rem;
+    font-weight: 700;
   }
   a:hover {
-    color: rgba(0, 0, 0, 0.623);
+    color: rgba(92, 0, 0, 0.623);
   }
 }
 

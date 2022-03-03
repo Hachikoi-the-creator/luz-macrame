@@ -1,8 +1,7 @@
 import React from "react";
-import img1 from "../img/macrame-1.webp";
-import img2 from "../img/macrame-2.webp";
-import img3 from "../img/macrame-3.webp";
-import img4 from "../img/macrame-4.webp";
+import img1 from "../img/uniforme/u1.webp";
+import img2 from "../img/uniforme/u2.webp";
+import img3 from "../img/uniforme/u3.webp";
 
 export default function Uniformes() {
   return (
@@ -11,7 +10,6 @@ export default function Uniformes() {
       <img src={img1} alt="missing-img" />
       <img src={img2} alt="missing-img" />
       <img src={img3} alt="missing-img" />
-      <img src={img4} alt="missing-img" />
     </section>
   );
 }
