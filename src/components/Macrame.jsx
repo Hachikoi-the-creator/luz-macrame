@@ -11,11 +11,13 @@ import img8 from "../img/macrame/m8.webp";
 import img9 from "../img/macrame/m9.webp";
 import img10 from "../img/macrame/m10.webp";
 import img11 from "../img/macrame/m11.webp";
+import img12 from "../img/macrame/m12.webp";
 
 export default function Macrame() {
   return (
     <section className="container">
       <h2 className="sub-title">Macrame</h2>
+      <img src={img12} alt="cute macrame picture" />
       <img src={img1} alt="cute macrame picture" />
       <img src={img2} alt="cute macrame picture" />
       <img src={img3} alt="cute macrame picture" />

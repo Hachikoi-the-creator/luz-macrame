@@ -16,7 +16,6 @@ export default function App() {
       <Almoadas />
       <Macrame />
       <Uniformes />
-      {/* <CubreMesa /> */}
       <Form />
     </div>
   );
