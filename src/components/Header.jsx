@@ -28,23 +28,18 @@ export default function Header() {
           </a>
         </li>
         <li>
-          <a onClick={() => setBurger(false)} href="#">
-            Almoadas
+          <a onClick={() => setBurger(false)} href="#cojines">
+            Cojines
           </a>
         </li>
         <li>
-          <a onClick={() => setBurger(false)} href="#">
+          <a onClick={() => setBurger(false)} href="#macrame">
             Macrame
           </a>
         </li>
         <li>
-          <a onClick={() => setBurger(false)} href="#">
+          <a onClick={() => setBurger(false)} href="#uniformes">
             Uniformes
-          </a>
-        </li>
-        <li>
-          <a onClick={() => setBurger(false)} href="#">
-            Camino de mesa
           </a>
         </li>
       </ul>

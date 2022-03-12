@@ -1,22 +1,24 @@
 import React from "react";
 import "./sass/basics.scss";
+import "./sass/sections.scss";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Almoadas from "./components/Almoadas";
+import Cojines from "./components/Cojines";
 import Macrame from "./components/Macrame";
 import Uniformes from "./components/Uniformes";
-import CubreMesa from "./components/CubreMesa";
 import Form from "./components/Form";
+import Llaveros from "./components/Llaveros";
 
 export default function App() {
   return (
     <div>
       <Header />
       <Hero />
-      <Almoadas />
+      <Llaveros />
+      <Cojines />
       <Macrame />
       <Uniformes />
-      <Form />
+      {/* <Form /> */}
     </div>
   );
 }
